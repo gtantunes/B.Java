@@ -12,11 +12,13 @@ public class Ex03 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int A = 5, B = 6, C = 7, D = 8, dif;
+        int dif;
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = sc.nextInt();
 
         dif = A * B - C * D;
-
-        sc.nextInt();
 
         System.out.println("Diferença = " + dif);
 
