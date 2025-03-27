@@ -19,16 +19,14 @@ public class Ex04 {
 
         if (y > x) {
             tempo = y - x;
-        }
-        else {
+        } else {
             tempo = 24 - x + y;
         }
-                if (tempo <1 || tempo >24) {
-                    System.out.println("O jogo não cumpriu a restrição de duração.");
-                }
-                    else{
-                        System.out.println("O Jogo durou um total de " + tempo + " horas.");
-                    }
+        if (tempo < 1 || tempo > 24) {
+            System.out.println("O jogo não cumpriu a restrição de duração.");
+        } else {
+            System.out.println("O Jogo durou um total de " + tempo + " horas.");
+        }
 
         sc.close();
     }
