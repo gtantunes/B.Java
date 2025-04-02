@@ -1,4 +1,4 @@
-package Chapter04;
+package Chapter01;
 
 // Fazer um programa para ler quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto
 //de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
@@ -21,7 +21,6 @@ public class Ex03 {
         dif = A * B - C * D;
 
         System.out.println("Diferença = " + dif);
-
         sc.close();
     }
 }

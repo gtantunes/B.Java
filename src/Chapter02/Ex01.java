@@ -1,4 +1,4 @@
-package Chapter05;
+package Chapter02;
 
 // Fazer um programa para ler um número inteiro, e depois dizer se este número é negativo ou não.
 
