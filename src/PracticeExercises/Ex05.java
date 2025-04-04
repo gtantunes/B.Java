@@ -38,3 +38,4 @@ public class Ex05 {
         sc.close();
     }
 }
+

@@ -19,7 +19,6 @@ public class Ex01 {
         System.out.println("Escolha um número aleatório para o programa:");
         int valor= sc.nextInt();
 
-
         for (int i = 0; i < repeticao; i++) {
 
             System.out.println("Tente adivinhar o número sorteado!");
