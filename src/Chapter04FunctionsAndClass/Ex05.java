@@ -25,7 +25,6 @@ public class Ex05 {
         System.out.print("Third Test's note: ");
         student.proof_note3 = sc.nextDouble();
 
-
         System.out.printf("Final Grade = %.2f%n", student.FinalGrade());
         if (student.FinalGrade() >= 60){
             System.out.println("PASS");
